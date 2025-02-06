@@ -19,18 +19,9 @@
 ### 🔧 配置
 請下載整份資料夾  
 需要配置的文件有`account.csv`、`chatlist.csv`、`envexample.txt`共三份  
-1. `account.csv`中請配置Dc token，一行一個帳號  
-2. `chatlist.csv`中請配置要發送的訊息，一行一個訊息  
-腳本為防止重複傳送訊息  
-會在發送訊息之後自動刪除文檔中的訊息  
-若希望重複傳送一樣的訊息  
-複製貼上多行相同的訊息即可  
-3. `envexample.txt`中配置各種參數，詳細部分會在檔案中註明  
-**注意在配置後須將檔案更名為`.env`**
 
 ### 🔧 使用
 文件配置好之後直接執行`python chat.py`即可  
-第一次執行前請先執行`pip install aiohttp python-dotenv`安裝必要模組
 
 ---
 
@@ -44,13 +35,9 @@
 ### 🔧 配置
 請下載整份資料夾
 需要配置的文件有`config.json`、`envexample.txt`共兩份
-1. `config.json`中配置"allowedChannelsIds"即可，支持同時填入多個頻道
-2. `envexample.txt`中配置DISCORD_TOKEN該項即可  
-**注意在配置後須將檔案更名為`.env`**
 
 ### 🔧 使用
 文件配置好之後直接先執行`npm install`安裝所有需要模組  
-再執行`node .`開始執行程式擷取資料
 
 ---
 
@@ -65,16 +52,7 @@
 ### 🔧 配置
 請下載整份資料夾
 需要配置的文件有`account.csv`共一份
-1. `account.csv`中僅需配置第一欄位`token`即可  
-其餘資料在腳本執行時會自動補上  
-Role機器人參數配置較為複雜故不支援使用.env自行修改參數
 
 ### 🔧 使用
 文件配置好之後須分三步執行腳本
-1. `python 1-getuser.py`獲取帳號資訊  
-   本步驟若無新增帳號只需執行一次  
-   執行之後會自動取得後續步驟需要資料
-3. `python 2-roleclick.py`會檢查帳號是否有role，無role的會自動領取
-4. `python 3-getrole.py`獲取帳號的role資訊
-   執行之後會顯示各個帳號的資訊，用以檢查role是否領取成功
 
