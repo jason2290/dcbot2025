@@ -2,9 +2,15 @@
 一個用於DC自動化操作的項目，方便您管理各項DC大小事務  
 請與作者取得聯繫之後並取得權限後，前往[dcbot-2025-](https://github.com/jason2290/dcbot-2025-)
 ## 📖 目錄
-- 聊天機器人`dcchatbot`
-- 蒐集聊天機器人`dccollectbot`
-- Role機器人`dcrolebot`
+### 聊天機器人`dcchatbot`  
+   當前版本:v1.1 (2025/2/8更新)
+  - 修正時間無法讀取問題
+  - 新增傳送訊息錯誤時報錯
+  - 標示發送訊息帳號
+### 蒐集聊天機器人`dccollectbot`
+   當前版本:v1
+### Role機器人`dcrolebot`
+   當前版本:v1
 
 ---
 
